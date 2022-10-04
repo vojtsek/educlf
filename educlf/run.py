@@ -13,7 +13,7 @@ def get_preprocess_f(label_mapping, tokenizer):
     def fun(example):
         processed_example = tokenizer(example['text'], padding=True, truncation=True)
         # processed_example = tokenizer(example['utterance'], padding=True, truncation=True)
-        # processed_example['label'] = label_mapping[example['labels']]
+        # processed_example['labels'] = label_mapping[example['labels']]
         processed_example['labels'] = example['label']
         return processed_example
 
@@ -38,9 +38,9 @@ def main(args):
     train_dataset, dev_dataset = load_data(args.data_fn)
     all_labels = set(train_dataset['labels'])
 
-    train_dataset, dev_dataset = datasets.load_dataset('imdb', split=['train', 'test'])
-    train_dataset = train_dataset.select(range(1000))
-    dev_dataset = dev_dataset.select(range(500))
+    train_dataset, dev_dataset = datasets.load_dataset('banking77', split=['train', 'test'])
+#    train_dataset = train_dataset.select(range(1000))
+#    dev_dataset = dev_dataset.select(range(500))
     label_mapping = {name: n for n, name in enumerate(all_labels)}
     if args.model == 'roberta':
         tokenizer = RobertaTokenizer.from_pretrained('ufal/robeczech-base')
@@ -56,7 +56,7 @@ def main(args):
     train_args = TrainingArguments(
         output_dir=args.out_dir,
         do_eval=True,
-        num_train_epochs=1,
+        num_train_epochs=5,
         evaluation_strategy='epoch',
         per_device_train_batch_size=8,
         warmup_steps=200,
