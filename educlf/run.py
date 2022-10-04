@@ -1,5 +1,6 @@
 import argparse
 import datasets
+import torch
 from transformers import Trainer, TrainingArguments,\
     RobertaForSequenceClassification, RobertaTokenizer,\
     ElectraForSequenceClassification, ElectraTokenizer
@@ -33,13 +34,13 @@ def compute_metrics(predictions):
 
 
 def main(args):
+    device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu:0')
     train_dataset, dev_dataset = load_data(args.data_fn)
     all_labels = set(train_dataset['labels'])
 
     train_dataset, dev_dataset = datasets.load_dataset('imdb', split=['train', 'test'])
     train_dataset = train_dataset.select(range(1000))
     dev_dataset = dev_dataset.select(range(500))
-
     label_mapping = {name: n for n, name in enumerate(all_labels)}
     if args.model == 'roberta':
         tokenizer = RobertaTokenizer.from_pretrained('ufal/robeczech-base')
@@ -51,6 +52,7 @@ def main(args):
         tokenizer = RobertaTokenizer.from_pretrained('roberta-base', max_length=512)
         model = RobertaForSequenceClassification.from_pretrained('roberta-base', num_labels=77)
 
+    model = model.to(device)
     train_args = TrainingArguments(
         output_dir=args.out_dir,
         do_eval=True,
