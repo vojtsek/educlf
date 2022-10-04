@@ -12,7 +12,7 @@ import numpy
 def get_preprocess_f(label_mapping, tokenizer):
     def fun(example):
         processed_example = tokenizer(example['utterance'], padding=True, truncation=True)
-        processed_example['labels'] = label_mapping[example['labels']]
+        processed_example['labels'] = [label_mapping[lbl] for lbl in example['labels']]
         return processed_example
 
     return fun
@@ -49,8 +49,9 @@ def main(args):
         train_dataset, dev_dataset = datasets.load_dataset('banking77', split=['train', 'test'])
 
     if args.model == 'robeczech':
-        tokenizer = RobertaTokenizer.from_pretrained('ufal/robeczech-base')
-        model = RobertaForSequenceClassification.from_pretrained('ufal/robeczech-base', num_labels=len(all_labels))
+        tokenizer = RobertaTokenizer.from_pretrained('ufal/robeczech-base', max_length=10)
+        model = RobertaForSequenceClassification.from_pretrained('ufal/robeczech-base',
+                                                                 num_labels=len(all_labels))
         preprocess_f = get_preprocess_f(label_mapping, tokenizer)
     elif args.model == 'electra':
         tokenizer = ElectraTokenizer.from_pretrained('ufal/eleczech-lc-small')
@@ -73,8 +74,8 @@ def main(args):
         warmup_steps=200,
         weight_decay=0.01,
     )
-    train_dataset = train_dataset.map(preprocess_f)
-    dev_dataset = dev_dataset.map(preprocess_f)
+    train_dataset = train_dataset.map(preprocess_f, batch_size=256, batched=True)
+    dev_dataset = dev_dataset.map(preprocess_f,  batch_size=256, batched=True)
 
     trainer = Trainer(
         model,
