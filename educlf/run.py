@@ -4,7 +4,8 @@ import torch
 from transformers import Trainer, TrainingArguments,\
     RobertaForSequenceClassification, RobertaTokenizer,\
     ElectraForSequenceClassification, ElectraTokenizer
-
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
 from .dataset import load_data
 import numpy
 
@@ -45,6 +46,7 @@ def main(args):
         train_dataset, dev_dataset = load_data(args.data_fn)
         all_labels = set(train_dataset['labels'])
         label_mapping = {name: n for n, name in enumerate(all_labels)}
+        inv_label_mapping = {v: k for k, v in label_mapping.items()}
     else:
         train_dataset, dev_dataset = datasets.load_dataset('banking77', split=['train', 'test'])
 
@@ -68,7 +70,7 @@ def main(args):
     train_args = TrainingArguments(
         output_dir=args.out_dir,
         do_eval=True,
-        num_train_epochs=5,
+        num_train_epochs=1,
         evaluation_strategy='epoch',
         per_device_train_batch_size=8,
         warmup_steps=200,
@@ -88,6 +90,13 @@ def main(args):
     )
     trainer.train()
     trainer.evaluate(train_dataset)
+    predictions = trainer.predict(dev_dataset)
+    true = [inv_label_mapping[l] for l in predictions.label_ids]
+    pred = [inv_label_mapping[p] for p in numpy.argmax(predictions.predictions, axis=-1)]
+    cm = confusion_matrix(true, pred)
+    dsp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=list(inv_label_mapping.values()))
+    dsp.plot()
+    plt.savefig('cm.png')
     trainer.save_model()
 
 
