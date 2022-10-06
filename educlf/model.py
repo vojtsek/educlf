@@ -115,8 +115,8 @@ class IntentClassifierModel:
         if self.trainer is None:
             print('The model has not been trained yet!')
             return EvalPrediction([], [])
-        dataset = dataset.map(self.preprocess_f)
-        return self.model.predict(dataset)
+        dataset = dataset.map(self.preprocess_f, batched=True, batch_size=256)
+        return self.trainer.predict(dataset)
 
     def predict_example(self, example):
         if not isinstance(example, list):
