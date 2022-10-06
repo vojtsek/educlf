@@ -12,6 +12,7 @@ from .model import IntentClassifierModel
 
 def main(args):
     device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu:0')
+
     if args.model in ['robeczech', 'electra']:
         train_dataset, dev_dataset = load_data(args.data_fn)
         all_labels = set(train_dataset['labels'])
@@ -23,12 +24,6 @@ def main(args):
     clf_model = IntentClassifierModel(args.model, device, label_mapping, args.out_dir)
     clf_model.train(train_dataset, dev_dataset)
     clf_model.save()
-
-    clf_model = IntentClassifierModel(None, device, None, None)
-    clf_model.load_from(args.out_dir)
-    test = clf_model.predict_example('aha no tak zatim zdar')
-    print(test)
-
     predictions = clf_model.predict_from_dataset(dev_dataset)
     true = [l for l in predictions.label_ids]
     pred = [p for p in numpy.argmax(predictions.predictions, axis=-1)]

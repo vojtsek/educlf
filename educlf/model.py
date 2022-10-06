@@ -124,7 +124,8 @@ class IntentClassifierModel:
         example = {'utterance': example}
         example = self.preprocess_f(example, return_tensors=True)
         with torch.no_grad():
-            logits = self.model(**example).logits.cpu().numpy()
+            feed = {k: v.to(self.model.device) for k, v in example.items()}
+            logits = self.model(**feed).logits.cpu().numpy()
         predicted_id = numpy.argmax(logits, axis=-1)
         return [self.id2lbl[pred] for pred in predicted_id]
 
