@@ -70,7 +70,7 @@ def main(args):
     train_args = TrainingArguments(
         output_dir=args.out_dir,
         do_eval=True,
-        num_train_epochs=1,
+        num_train_epochs=10,
         evaluation_strategy='epoch',
         per_device_train_batch_size=8,
         warmup_steps=200,
@@ -91,11 +91,12 @@ def main(args):
     trainer.train()
     trainer.evaluate(train_dataset)
     predictions = trainer.predict(dev_dataset)
-    true = [inv_label_mapping[l] for l in predictions.label_ids]
-    pred = [inv_label_mapping[p] for p in numpy.argmax(predictions.predictions, axis=-1)]
+    true = [l for l in predictions.label_ids]
+    pred = [p for p in numpy.argmax(predictions.predictions, axis=-1)]
     cm = confusion_matrix(true, pred)
-    dsp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=list(inv_label_mapping.values()))
-    dsp.plot()
+    dsp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=[inv_label_mapping[i] for i in range(len(inv_label_mapping))])
+#    plt.rcParams["figure.figsize"] = (20,20)
+    dsp.plot(xticks_rotation='vertical')
     plt.savefig('cm.png')
     trainer.save_model()
 
