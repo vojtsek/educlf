@@ -22,6 +22,7 @@ def main(args):
         train_dataset, dev_dataset = datasets.load_dataset('banking77', split=['train', 'test'])
 
     clf_model = IntentClassifierModel(args.model, device, label_mapping, args.out_dir)
+
     clf_model.train(train_dataset, dev_dataset)
     clf_model.save()
     predictions = clf_model.predict_from_dataset(dev_dataset)

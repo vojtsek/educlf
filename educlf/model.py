@@ -50,6 +50,7 @@ class IntentClassifierModel:
         self.tokenizer = tokenizer
         self.preprocess_f = preprocess_f
         self.trainer = None
+        self.repr_pooling = torch.nn.AvgPool1d(kernel_size=10, stride=5)
 
     def _load_mappings(self, label_mapping):
         if label_mapping is not None:
@@ -118,16 +119,31 @@ class IntentClassifierModel:
         dataset = dataset.map(self.preprocess_f, batched=True, batch_size=256)
         return self.trainer.predict(dataset)
 
-    def predict_example(self, example):
+    def _feed(self, example):
         if not isinstance(example, list):
             example = [example]
         example = {'utterance': example}
         example = self.preprocess_f(example, return_tensors=True)
         with torch.no_grad():
             feed = {k: v.to(self.model.device) for k, v in example.items()}
-            logits = self.model(**feed).logits.cpu().numpy()
-        predicted_id = numpy.argmax(logits, axis=-1)
-        return [self.id2lbl[pred] for pred in predicted_id]
+            feed['output_hidden_states'] = True
+            output = self.model(**feed)
+        return output.logits.cpu(), output.hidden_states[-1].cpu()
+
+    def predict_example(self, example):
+        logits, _ = self._feed(example)
+        logits_sm = torch.softmax(logits, dim=-1)
+        predicted_id = numpy.argmax(logits.numpy(), axis=-1)
+        pred_confidence = numpy.max(logits_sm.numpy(), axis=-1)
+        return [(self.id2lbl[pred], conf) for pred, conf in zip(predicted_id, pred_confidence)]
+
+    def get_sentence_representation(self, sentence):
+        _, last_hidden_states = self._feed(sentence)
+        # [B x (N * H)]
+        flattened_hidden_states = torch.flatten(last_hidden_states, start_dim=1)
+        # [B x (N * H)']
+        pooled_hidden_states = self.repr_pooling(flattened_hidden_states)
+        return pooled_hidden_states
 
     def save(self):
         self.trainer.save_model(self.out_dir)
