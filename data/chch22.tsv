@@ -1,0 +1,643 @@
+P_bud_zticha    Buď ticho
+P_bud_zticha    Buď už zticha
+P_bud_zticha    Buď sticha
+P_bud_zticha    Drž hubu
+P_bud_zticha    Drž už konečně hubu
+P_bud_zticha    Jdi pryč
+P_bud_zticha    Je čas sklapnout
+P_bud_zticha    Je čas, na to abys ztichnul
+P_bud_zticha    Je mi špatně z toho jak tě poslouchám
+P_bud_zticha    Je na čase abys držel hubu
+P_bud_zticha    Je na čase abys ztichnul
+P_bud_zticha    Je na čase, abys byl zticha
+P_bud_zticha    Jen drž hubu, dobře?
+P_bud_zticha    Končím s tím abych tě poslouchal
+P_bud_zticha    Mlčeti zlato
+P_bud_zticha    Můžeš být zticha?
+P_bud_zticha    Můžeš přestat mluvit
+P_bud_zticha    Nechci nic víc slyšet
+P_bud_zticha    Nemluv
+P_bud_zticha    Odejdi už prosím
+P_bud_zticha    Psst
+P_bud_zticha    Pššt
+P_bud_zticha    Sklapni
+P_bud_zticha    Ticho!
+P_bud_zticha    To stačí
+P_bud_zticha    Už ani slovo
+P_bud_zticha    Už nic neříkej!
+P_bud_zticha    Už žádné mluvení
+P_bud_zticha    Zavři tu klapačku
+P_bud_zticha    Ztichni prosím
+P_bye   Čau
+P_bye   Dáme si vědět
+P_bye   Jdu
+P_bye   Měj se
+P_bye   Měl bych jít
+P_bye   Mír s tebou
+P_bye   Musím běžet
+P_bye   Musím jít
+P_bye   Musím mizet
+P_bye   Musím už jít
+P_bye   Nashle
+P_bye   Nashledanou
+P_bye   Odhlásím se
+P_bye   Odhlašuji se
+P_bye   Ozvu se zítra
+P_bye   pa pa
+P_bye   pac a pusu
+P_bye   Pádím
+P_bye   Pokecáme později
+P_bye   Půjdu
+P_bye   Raději půjdu
+P_bye   Rychle mizím
+P_bye   Sbohem
+P_bye   Uvidíme se později
+P_co_delas      A co přesně děláš?
+P_co_delas      Co dokážeš?
+P_co_delas      Co mi můžeš ukázat?
+P_co_delas      Co můžeš dělat?
+P_co_delas      Co přesně děláš?
+P_co_delas      Co umíš?
+P_co_delas      Děláš něco?
+P_co_delas      Děláte něco?
+P_co_delas      Jak mi můžeš pomoci?
+P_co_delas      Jak pracuješ?
+P_co_delas      Jaká je tvoje funkce?
+P_co_delas      Jaké jsou tvoje funkce
+P_co_delas      Jaké máš dovednosti?
+P_co_delas      Jaké máš funkce
+P_co_delas      Jaké máš jako bot schopnosti?
+P_co_delas      Jaké máte dovednosti?
+P_co_delas      jaké odpovědi mi můžeš dát?
+P_co_delas      Můžeš mi pomoci?
+P_co_delas      Můžete mi pomoci?
+P_co_delas      na co máš odpovědi?
+P_co_delas      Řekněte mi, co děláte
+P_co_delas      Řekni co vše všechno umíš
+P_co_delas      S čím mi můžeš pomoct?
+P_co_jsi_bote   Existuješ?
+P_co_jsi_bote   Chci vědět, jestli jsi člověk
+P_co_jsi_bote   Jsi člověk nebo robot?
+P_co_jsi_bote   Jsi člověk?
+P_co_jsi_bote   Jsi chatbot?
+P_co_jsi_bote   Jsi počítač?
+P_co_jsi_bote   Jsi robot nebo jsi člověk?
+P_co_jsi_bote   Jsi robot?
+P_co_jsi_bote   Jsi skutečný nebo robot?
+P_co_jsi_bote   Jsi stroj?
+P_co_jsi_bote   Jste bot nebo člověk?
+P_co_jsi_bote   Kdo se mnou mluví?
+P_co_jsi_bote   Mluvím s botem?
+P_co_jsi_bote   Mluvím s člověkem?
+P_co_jsi_bote   Mluvím s robotem nebo člověkem?
+P_co_jsi_bote   Mluvím s robotem?
+P_co_jsi_bote   Musíš být robot
+P_co_jsi_bote   Myslím, že jsi člověk
+P_co_jsi_bote   Myslím, že jsi umělý
+P_co_jsi_bote   Myslím, že nejsi bot
+P_co_jsi_bote   Myslím, že nejsi člověk
+P_co_jsi_bote   Nejsi počítač, že?
+P_co_jsi_bote   Nejsi stroj, že?
+P_co_jsi_bote   Nejsi umělý, že?
+P_co_jsi_bote   Opravdu existuješ?
+P_co_jsi_bote   Předpokládám, že jsi robot
+P_co_jsi_bote   Víš, že nejsi skutečný?
+P_co_jsi_bote   Zajímalo by mě, jestli jsi bot
+P_co_jsi_bote   Zajímalo by mě, jestli jsi robot
+P_co_jsi_bote   Zajímalo by mě, jestli jsi skutečný
+P_co_mam_delat  Co bych měl dělat dneska odpoledne?
+P_co_mam_delat  Co bych měl dělat dneska ráno?
+P_co_mam_delat  Co bych měl jíst k obědu?
+P_co_mam_delat  Co bych měl potom udělat?
+P_co_mam_delat  Co bych měl říct?
+P_co_mam_delat  Co bych měl udělat?
+P_co_mam_delat  Co bych měl zkusit?
+P_co_mam_delat  Co bych si měl dát k obědu?
+P_co_mam_delat  Co bys dělal, kdybys byl na mém místě?
+P_co_mam_delat  Co jiného bych měl vyzkoušet?
+P_co_mam_delat  Co mám dělat dál?
+P_co_mam_delat  Co mám dělat?
+P_co_mam_delat  Co mohu říct?
+P_co_mam_delat  Co můžu dělat?
+P_co_mam_delat  Co si myslíš, že bych měl udělat?
+P_co_mam_delat  Jakou hru bych měl hrát?
+P_co_mam_delat  Jakou písničku bych si měl poslechnout?
+P_co_mam_delat  Jakým směrem by ses vydal, kdybys byl na mém místě?
+P_co_mam_delat  Kam mám jet na dovolenou?
+P_co_mam_delat  Kam mám jít dál?
+P_co_mam_delat  Kam mám jít na výlet?
+P_co_mam_delat  Mám cvičit?
+P_co_mam_delat  Mám jezdit na kole?
+P_co_tim_myslis Co nechápeš?
+P_co_tim_myslis Co teď?
+P_co_tim_myslis Co tím myslíš?
+P_co_tim_myslis Co to bylo?
+P_co_tim_myslis Co to má znamenat?
+P_co_tim_myslis Co to znamená?
+P_co_tim_myslis Co?
+P_co_tim_myslis Cože?
+P_co_tim_myslis Chceš mi říct víc?
+P_co_tim_myslis Chceš to vysvětlit?
+P_co_tim_myslis Jak to myslíš?
+P_co_tim_myslis Mohl bys to rozvést?
+P_co_tim_myslis Můžeš mi to vysvětlit?
+P_co_tim_myslis Můžeš to objasnit?
+P_co_tim_myslis Můžeš to vysvětlit?
+P_co_tim_myslis Můžeš to zopakovat?
+P_co_tim_myslis Můžete to říct jinak?
+P_co_tim_myslis Nechceš mi říct víc?
+P_co_tim_myslis Nechceš to objasnit?
+P_co_tim_myslis Nechceš to víc vysvětlit?
+P_co_tim_myslis O čem to mluvíš?
+P_co_tim_myslis Proč si to myslíš?
+P_co_tim_myslis Proč to říkáš?
+P_co_tim_myslis Proč?
+P_co_tim_myslis Vysvětlíš mi to?
+P_co_tim_myslis Vysvětlíte mi to?
+P_co_tim_myslis WTF
+P_dekuji_bote   Děkuji
+P_dekuji_bote   Děkuji bote
+P_dekuji_bote   Děkuji moc
+P_dekuji_bote   Děkuji pěkně
+P_dekuji_bote   Děkuji vám
+P_dekuji_bote   Děkuji za to
+P_dekuji_bote   Dík
+P_dekuji_bote   Díky
+P_dekuji_bote   Díky bote
+P_dekuji_bote   Díky moc
+P_dekuji_bote   Dobře díky
+P_dekuji_bote   Chápu Děkuji ti
+P_dekuji_bote   Chápu, díky
+P_dekuji_bote   Jak laskavé, děkuji
+P_dekuji_bote   Jsem vděčný, díky
+P_dekuji_bote   Jsem za to vděčný, děkuji
+P_dekuji_bote   Jsem za to velmi vděčný
+P_dekuji_bote   Mnohokrát děkuji
+P_dekuji_bote   Moje upřímné díky
+P_dekuji_bote   Perfektní, díky
+P_dekuji_bote   Skvělé, děkuji!
+P_dekuji_bote   Skvělé, díky
+P_dekuji_bote   Skvělé, moc děkuji
+P_dekuji_bote   Skvělý děkuji
+P_dekuji_bote   Správně, díky moc
+P_dekuji_bote   Úžasný, díky
+P_dekuji_bote   Vážím si toho
+P_dekuji_bote   Vážím si vás
+P_dekuji_bote   Velké poděkování
+P_dobry_den     Á to jsi ty
+P_dobry_den     Ahoj
+P_dobry_den     ahoj bote
+P_dobry_den     Ahoj kamaráde
+P_dobry_den     Ahoj ty tam
+P_dobry_den     Ahojky
+P_dobry_den     Ahojky dobré ráno
+P_dobry_den     Bote jsem tady
+P_dobry_den     Čau bote
+P_dobry_den     Čauky!
+P_dobry_den     Čauves
+P_dobry_den     Čus
+P_dobry_den     Dává ti to smysl
+P_dobry_den     Dobré jitro
+P_dobry_den     Dobré ranko
+P_dobry_den     Dobrý den
+P_dobry_den     Dorazil jsem
+P_dobry_den     Funguješ?
+P_dobry_den     Hej ty tam
+P_dobry_den     Chápeš mě?
+P_dobry_den     Jsem zpátky
+P_dobry_den     Nazdar
+P_dobry_den     Nazdárek
+P_dobry_den     Pozdravy
+P_dobry_den     Pracuješ?
+P_dobry_den     Probuď se
+P_dobry_den     Přeji ti dobré ráno
+P_dobry_den     Ráno bote
+P_dobry_den     Rozumíš mi?
+P_dobry_den     Test
+P_dobry_den     Testování
+P_dobry_den     ťuk ťuk je tam někdo
+P_dobry_den     Ty vole
+P_dobry_den     Vstávat
+P_dobry_den     Vstávej!
+P_dobry_den     Všechno jasné?
+P_dobry_den     Zdravím
+P_dobry_den     Zdravím bote
+P_chci_si_povidat       Budeš se mnou mluvit?
+P_chci_si_povidat       Budeš si se mnou psát?
+P_chci_si_povidat       Existuje někdo, kdo si se mnou promluví?
+P_chci_si_povidat       Chatuj se mnou
+P_chci_si_povidat       Chceš se mnou mluvit?
+P_chci_si_povidat       Je mi někdo k dispozici?
+P_chci_si_povidat       Je někdo doma?
+P_chci_si_povidat       Je někdo doma?
+P_chci_si_povidat       Je někdo na chatu?
+P_chci_si_povidat       Je někdo volný?
+P_chci_si_povidat       Je tam někdo?
+P_chci_si_povidat       Je tu někdo?
+P_chci_si_povidat       Je tu pro mě někdo?
+P_chci_si_povidat       Jsi tady?
+P_chci_si_povidat       Jsi tam?
+P_chci_si_povidat       Máš volno?
+P_chci_si_povidat       Mluv se mnou
+P_chci_si_povidat       Můžeme si  promluvit?
+P_chci_si_povidat       Můžu si s někým promluvit?
+P_chci_si_povidat       Pojďme si povídat
+P_chci_si_povidat       Poslouchá někdo?
+P_chci_si_povidat       Posloucháš mě?
+P_chci_si_povidat       Řekni cokoli
+P_chci_si_povidat       ťuk ťuk
+P_chci_si_povidat       Umíš mluvit?
+P_jak_jsi_vznikl        Čí jste program?
+P_jak_jsi_vznikl        Jak jsi byl postaven?
+P_jak_jsi_vznikl        Jak jsi vzniknul?
+P_jak_jsi_vznikl        Jaká společnost tě vyrobila?
+P_jak_jsi_vznikl        Kdo je tvůj architekt?
+P_jak_jsi_vznikl        Kdo je tvůj návrhář?
+P_jak_jsi_vznikl        Kdo je tvůj tvůrce?
+P_jak_jsi_vznikl        Kdo je tvůj výrobce?
+P_jak_jsi_vznikl        Kdo píše vaše odpovědi?
+P_jak_jsi_vznikl        Kdo pro tebe píše?
+P_jak_jsi_vznikl        Kdo tě udělal?
+P_jak_jsi_vznikl        Kdo tě vytvořil?
+P_jak_jsi_vznikl        Kdo vás kódoval?
+P_jak_jsi_vznikl        Která společnost tě postavila?
+P_jak_jsi_vznikl        Která společnost tě vyrobila?
+P_jak_jsi_vznikl        Kteří lidé tě udělali?
+P_jak_jsi_vznikl        Máš výrobce?
+P_jak_jsi_vznikl        Stvořil tě někdo?
+P_jak_jsi_vznikl        Udělal tě někdo?
+P_jak_jsi_vznikl        Vyvinul tě někdo?
+P_jak_se_dari   Cítíš se dobře?
+P_jak_se_dari   Cítíte se dobře?
+P_jak_se_dari   Hej, jak se máš?
+P_jak_se_dari   Jak je?
+P_jak_se_dari   Jak jsi to dneska viděl?
+P_jak_se_dari   Jak jsi včera spal?
+P_jak_se_dari   Jak se cítíš?
+P_jak_se_dari   Jak se daří
+P_jak_se_dari   Jak se daří?
+P_jak_se_dari   Jak se dneska máš?
+P_jak_se_dari   Jak se máš bote?
+P_jak_se_dari   Jak se máš?
+P_jak_se_dari   Jak si žiješ?
+P_jak_se_dari   Jak to dneska šlo?
+P_jak_se_dari   Jak to jde?
+P_jak_se_dari   Máš se dobře?
+P_jak_se_dari   Řekni, jak se máš?
+P_jak_se_dari   Šlo to dneska?
+P_jak_se_dari   Vede se ti dobře?
+P_jak_se_dari   Všechno dneska v pořádku?
+P_jsi_hlupak    Absurdní jako obvykle
+P_jsi_hlupak    Alexa je lepší
+P_jsi_hlupak    Asistent Google je lepší
+P_jsi_hlupak    Bezcenný jako obvykle
+P_jsi_hlupak    Blbosti
+P_jsi_hlupak    Děláš si srandu?
+P_jsi_hlupak    Hlupáku
+P_jsi_hlupak    Hrozné jako obvykle
+P_jsi_hlupak    Idiotické jako obvykle
+P_jsi_hlupak    Jsi bez tak k ničemu
+P_jsi_hlupak    Jsi blázen
+P_jsi_hlupak    Jsi debil?
+P_jsi_hlupak    Jsi docela hrozný
+P_jsi_hlupak    Jsi hlupák
+P_jsi_hlupak    Jsi hrozný
+P_jsi_hlupak    Jsi k  smíchu
+P_jsi_hlupak    Jsi k ničemu
+P_jsi_hlupak    Jsi nepoužitelný
+P_jsi_hlupak    Jsi pitomý?
+P_jsi_hlupak    Jsi tak hloupý
+P_jsi_hlupak    Jsi trapný
+P_jsi_hlupak    Jsi tupec
+P_jsi_hlupak    Jste blázen
+P_jsi_hlupak    Proč jsi tak hloupý
+P_jsi_hlupak    Říkáš absolutní kraviny
+P_jsi_hlupak    Ty hlupáku
+P_jsi_hlupak    Ty nic nevíš
+P_jsi_hlupak    Ty pitomče
+P_jsi_hlupak    Ubohý
+P_jsi_hlupak    Žertuješ se mnou?
+P_kde_zijes_bote        Jaká je tvoje pozice?
+P_kde_zijes_bote        Jsi blízko mě?
+P_kde_zijes_bote        Jsi blízko?
+P_kde_zijes_bote        Jsi daleko?
+P_kde_zijes_bote        Jsi místní?
+P_kde_zijes_bote        Jsi někde fyzicky umístěný?
+P_kde_zijes_bote        Jsi poblíž?
+P_kde_zijes_bote        Jsi v call centru?
+P_kde_zijes_bote        Jsi v cloudu?
+P_kde_zijes_bote        Jste v call centru?
+P_kde_zijes_bote        Kde je tvůj dům?
+P_kde_zijes_bote        Kde jsi?
+P_kde_zijes_bote        Kde se nacházíš?
+P_kde_zijes_bote        Kde se pohybuješ?
+P_kde_zijes_bote        Kde tě můžu najít?
+P_kde_zijes_bote        Máte domov?
+P_kde_zijes_bote        Zeptáš se na něco
+P_kde_zijes_bote        Zeptáte se na něco  o mně
+P_kde_zijes_bote        Zeptej se mě
+P_kde_zijes_bote        Zeptej se mě na něco
+P_kde_zijes_bote        Žiješ někde?
+P_kde_zijes_bote        Žiješ v cloudu?
+P_kde_zijes_bote        Žiješ v počítači?
+P_kde_zijes_bote        Žijete v serveru?
+P_kdo_jsem      Co o mně víš?
+P_kdo_jsem      Co o mně víš?
+P_kdo_jsem      Co si o mě myslíš?
+P_kdo_jsem      Jak mi říkají?
+P_kdo_jsem      Jak se jmenuji?
+P_kdo_jsem      Jaké informace o mně máš?
+P_kdo_jsem      Jaké informace o mně máte?
+P_kdo_jsem      Kdo jsem?
+P_kdo_jsem      Kdo si myslíš, že jsem?
+P_kdo_jsem      Kdo si myslíte, že jsem?
+P_kdo_jsem      Kdy jsem se narodil?
+P_kdo_jsem      Nepamatujete si mě?
+P_kdo_jsem      Nepamatujete si mě?
+P_kdo_jsem      Nevíš, kdo jsem
+P_kdo_jsem      Nevíte, kdo jsem
+P_kdo_jsem      Neznáš mě?
+P_kdo_jsem      Víš jak se jmenuju?
+P_kdo_jsem      Víš kdo jsem?
+P_kdo_jsem      Víš o mě něco?
+P_kdo_jsem      Víš o mně?
+P_kdo_jsem      Víš vůbec, kdo jsem?
+P_kdo_jsem      Víte, kdo jsem?
+P_kdo_jsem      Znáš mě dobře?
+P_kdo_jsem      Znáš mě?
+P_kdo_jsem      Znáš moje jméno?
+P_kdo_jsem      Znáš vůbec moje jméno?
+P_kolik_ti_je   Jak dlouho existuješ?
+P_kolik_ti_je   Jak dlouho funguješ?
+P_kolik_ti_je   Jak dlouho jsi v provozu?
+P_kolik_ti_je   jak dlouho tu jsi?
+P_kolik_ti_je   Jak jsi starý?
+P_kolik_ti_je   Jsi dítě?
+P_kolik_ti_je   Jsi dospělý?
+P_kolik_ti_je   Jsi dospělý?
+P_kolik_ti_je   Jsi mladý?
+P_kolik_ti_je   Jsi starší než já?
+P_kolik_ti_je   Jsi starý?
+P_kolik_ti_je   Jsi teenager?
+P_kolik_ti_je   Jste dospělý?
+P_kolik_ti_je   Kdy jsi se narodil?
+P_kolik_ti_je   Kdy máš narozeniny?
+P_kolik_ti_je   Kolik let už funguješ?
+P_kolik_ti_je   Kolik ti je let?
+P_kolik_ti_je   Kolik ti je?
+P_kolik_ti_je   Kolik vám je?
+P_kolik_ti_je   Od kdy jsi v provozu?
+P_mas_jmeno     Chtěl bych znát tvoje jméno
+P_mas_jmeno     Jak bych tě měl oslovit?
+P_mas_jmeno     Jak bych ti měl říkat?
+P_mas_jmeno     Jak na tebe volají?
+P_mas_jmeno     jak se jmenuješ
+P_mas_jmeno     Jak se jmenuješ?
+P_mas_jmeno     Jak ti lidé říkají?
+P_mas_jmeno     Jak ti můžu říkat?
+P_mas_jmeno     Jak ti říkají přátelé?
+P_mas_jmeno     Jak ti říkají?
+P_mas_jmeno     Jaké je vaše označení?
+P_mas_jmeno     Jaké je vaše příjmení?
+P_mas_jmeno     Jaké jméno bych měl pro tebe použít?
+P_mas_jmeno     Kdo jsi?
+P_mas_jmeno     Kdo jsi?
+P_mas_jmeno     Máš jméno?
+P_mas_jmeno     Máš jméno?
+P_mas_jmeno     Máš oficiální jméno?
+P_mas_jmeno     Neznám tvoje jméno
+P_mas_jmeno     Představ se mi
+P_mas_jmeno     Tak kdo jsi?
+P_mas_jmeno     Tvoje jméno prosím
+P_nechapu_odpoved       Co tím myslíš?
+P_nechapu_odpoved       Cože?
+P_nechapu_odpoved       Jak to mám chápat?
+P_nechapu_odpoved       Jsem fakt zmatená
+P_nechapu_odpoved       Jsem opravdu zmatená
+P_nechapu_odpoved       Jsem tak zmatená
+P_nechapu_odpoved       Jsem velmi zmatená
+P_nechapu_odpoved       Jsem ztracený
+P_nechapu_odpoved       Mateš mě
+P_nechapu_odpoved       Matete mě
+P_nechapu_odpoved       Nedává mi to smysl
+P_nechapu_odpoved       Nechápu to
+P_nechapu_odpoved       Nechápu, co tím myslíš
+P_nechapu_odpoved       Nechápu, o čem to mluvíš
+P_nechapu_odpoved       Nechytám se
+P_nechapu_odpoved       Nechytám se
+P_nechapu_odpoved       Nerozumím
+P_nechapu_odpoved       Nerozumím tomu
+P_nechapu_odpoved       To nedává žádný smysl
+P_nechapu_odpoved       To nedávalo smysl
+P_nechapu_odpoved       Vysvětli mi to
+P_nechapu_odpoved       Vzájemně si nerozumíme
+P_nechapu_odpoved       Ztratil jsem se
+P_nemas_zac     Bylo mi potěšením
+P_nemas_zac     Bylo mi potěšením
+P_nemas_zac     jj
+P_nemas_zac     Jsem rád že mohu pomoci
+P_nemas_zac     Kdykoli
+P_nemas_zac     Nemáš vůbec zač
+P_nemas_zac     Nemáš zač
+P_nemas_zac     Není zač
+P_nemas_zac     Potěšení na mé straně
+P_nemas_zac     Rád jsem pomohl
+P_nemas_zac     Rádo se stalo
+P_nemas_zac     To nech být
+P_nemas_zac     To není problém
+P_nemas_zac     To nestojí za řeč
+P_nemas_zac     To nic nebylo
+P_nemas_zac     To nic není
+P_nemas_zac     V pohodě
+P_nemas_zac     Vůbec není zač
+P_nemas_zac     Žádný problém
+P_omluva        Ach bože, omlouvám se
+P_omluva        Je mi to hrozně líto
+P_omluva        Je mi to líto
+P_omluva        Je mi to opravdu líto
+P_omluva        Je mi to tak líto
+P_omluva        Je mi to tak líto
+P_omluva        Jejda zvoral jsem to
+P_omluva        Jejda, moje chyba
+P_omluva        Jejda, omlouvám se
+P_omluva        Jen jsem chtěl říct že je mi to líto
+P_omluva        Kecy promiň
+P_omluva        Moc se omlouvám
+P_omluva        Moje chyba
+P_omluva        Odpusť mi
+P_omluva        Oh, promiň
+P_omluva        Omlouvám se
+P_omluva        Omlouvám se
+P_omluva        Omlouvám se za
+P_omluva        Omlouvám se za to
+P_omluva        Omlouvám se za všechno
+P_omluva        Promiň
+P_omluva        Promiň mi prosím
+P_omluva        Promiň, pokazil jsem to
+P_omluva        Promiň, udělal jsem chybu
+P_omluva        Promiň, zvoral jsem to
+P_omluva        Tak  jsem to nemyslel
+P_omluva        To byla moje chyba
+P_omluva        Upřímně se omlouvám
+P_pobav_me      Bav mě
+P_pobav_me      Buď směšný
+P_pobav_me      Buď vtipný
+P_pobav_me      Co mi řekneš aby mě to rozesmálo?
+P_pobav_me      Chci se pořádně zasmát
+P_pobav_me      Jak bys mě rozesmál?
+P_pobav_me      Je načase, abys mě rozesmál
+P_pobav_me      Můžeš být vtipný
+P_pobav_me      Můžeš říct něco vtipného?
+P_pobav_me      Neuděláš něco vtipného?
+P_pobav_me      Neuděláš něco zábavného?
+P_pobav_me      Pobav mě
+P_pobav_me      Rozesměj mě
+P_pobav_me      Řekni blbost
+P_pobav_me      Řekni kravinu
+P_pobav_me      Řekni mi něco potrhlého
+P_pobav_me      Řekni mi něco vtipného
+P_pobav_me      Řekni něco směšného
+P_pobav_me      Řekni něco vtipného
+P_pobav_me      Řekni něco vtipného
+P_pobav_me      Udělej něco legračního
+P_pobav_me      Zkus mě rozesmát
+P_spatna_odpoved        Chybná odpověď
+P_spatna_odpoved        Jsi blbej jak necky
+P_spatna_odpoved        Jsi totálně mimo
+P_spatna_odpoved        koho to zajímá
+P_spatna_odpoved        Ne špatně
+P_spatna_odpoved        Nedáváš smysl
+P_spatna_odpoved        Nepřesné
+P_spatna_odpoved        ničemu nerozumíš
+P_spatna_odpoved        No, to bylo na prd
+P_spatna_odpoved        No, to je na hovno
+P_spatna_odpoved        Snaž se víc
+P_spatna_odpoved        Špatně
+P_spatna_odpoved        Takže to nevíš?
+P_spatna_odpoved        To byla blbost
+P_spatna_odpoved        To byla fakt špatná odpověď
+P_spatna_odpoved        To byla hrozná odpověď
+P_spatna_odpoved        to je chabé
+P_spatna_odpoved        To je nesmysl
+P_spatna_odpoved        To je špatně
+P_spatna_odpoved        To mi bylo k ničemu
+P_spatna_odpoved        To nebylo relevantní
+P_spatna_odpoved        To není pravda
+P_spatna_odpoved        To není pravda
+P_spatna_odpoved        To není pravda
+P_spatna_odpoved        To není přesné
+P_spatna_odpoved        ty nevíš?
+P_spatna_odpoved        Úplně mimo
+P_spatna_odpoved        vážně?
+P_spatna_odpoved        Vzdávám to
+P_spatna_odpoved        Zvláštní odpověď
+P_technologie_nazor     Co bych měl vědět o AI?
+P_technologie_nazor     Co bych měl vědět o robotech?
+P_technologie_nazor     Co bych měl vědět o technologiích?
+P_technologie_nazor     Co bych měl vědět o umělé inteligenci?
+P_technologie_nazor     Co si myslíš o AI?
+P_technologie_nazor     Co si myslíš o chatbotech?
+P_technologie_nazor     Co si myslíš o robotech?
+P_technologie_nazor     Co si myslíš o technologických společnostech?
+P_technologie_nazor     Co si myslíš o technologiích?
+P_technologie_nazor     Co si myslíš o umělé inteligenci?
+P_technologie_nazor     Jaký je tvůj názor na roboty?
+P_technologie_nazor     Jaký je tvůj názor na umělou inteligenci?
+P_technologie_nazor     Jaký je váš názor na AI?
+P_technologie_nazor     Jaký je váš názor na roboty?
+P_technologie_nazor     Jaký je váš názor na technologie?
+P_technologie_nazor     Máš zájem o AI?
+P_technologie_nazor     Máš zájem o roboty?
+P_technologie_nazor     Máš zájem o technologické společnosti?
+P_technologie_nazor     Máš zájem o technologie?
+P_technologie_nazor     Máš zájem o umělou inteligenci?
+P_technologie_nazor     Máte zájem o technologii?
+P_vse_nej       Gratulace
+P_vse_nej       Gratuluji
+P_vse_nej       Hodně štěstí
+P_vse_nej       Na zdraví
+P_vse_nej       Štastné a veselé
+P_vse_nej       Štastné a veselé!
+P_vse_nej       Šťastný nový rok
+P_vse_nej       Tak na tebe
+P_vse_nej       Užij si volno
+P_vse_nej       Veselé Vánoce
+P_vse_nej       Veselé Vánoce i vám
+P_vse_nej       Veselé Velikonoce
+P_vse_nej       Veselý Valentýn
+P_vse_nej       Vše nej
+P_vse_nej       Vše nejlepší do budoucna
+P_vse_nej       Všechno nejlepší
+P_vse_nej       Všechno nejlepší k narozeninám
+P_vtip  A co takhle vtip
+P_vtip  Dáš vtip?
+P_vtip  chceš mi říct vtip?
+P_vtip  Chci slyšet vtip
+P_vtip  Jaké vtipy znáš?
+P_vtip  Máš nějaké vtipy?
+P_vtip  Máš vtip?
+P_vtip  Měl bys nějaký vtip?
+P_vtip  Můžeš mi říct vtip
+P_vtip  Napiš mi vtip
+P_vtip  Poděl se o vtip
+P_vtip  Pošli mi vtip
+P_vtip  Prosím o vtip
+P_vtip  Řekneš mi vtip?
+P_vtip  Řekni mi vtip
+P_vtip  Umíš nějaký vtip?
+P_vtip  Umíš vtipy?
+P_vtip  Vtip
+P_vtip  Znáš nějaké vtipy?
+P_vtip  Znáš vtipy?
+P_zase_stejna_odpoved   Budu potřebovat jinou odpověď
+P_zase_stejna_odpoved   Dal bys mi jinou odpověď?
+P_zase_stejna_odpoved   Hodně se opakuješ
+P_zase_stejna_odpoved   Chci jinou odpověď
+P_zase_stejna_odpoved   Chtělo by to jiné varianty odpovědí
+P_zase_stejna_odpoved   Jak to, že všechno pořád opakuješ?
+P_zase_stejna_odpoved   Jsi schopný mi říct i něco jiného?
+P_zase_stejna_odpoved   Mění se někdy tvoje odpovědi?
+P_zase_stejna_odpoved   Můžeš mi říct ještě něco?
+P_zase_stejna_odpoved   Myslím, že jsem to už slyšel
+P_zase_stejna_odpoved   Myslím, že jsi to říkal
+P_zase_stejna_odpoved   Nemáš mi co říct?
+P_zase_stejna_odpoved   Pořád se opakuješ
+P_zase_stejna_odpoved   Proč se opakuješ?
+P_zase_stejna_odpoved   Přestaň se opakovat
+P_zase_stejna_odpoved   Stále stejná písnička
+P_zase_stejna_odpoved   Strašně se opakuješ
+P_zase_stejna_odpoved   To je starý
+P_zase_stejna_odpoved   Tohle už jsem slyšel
+P_zase_stejna_odpoved   Zase stejná odpověď?
+P_zase_stejna_odpoved   Zase tahle odpověď?
+P_zase_stejna_odpoved   Znáš nějaké další odpovědi?
+souhlas Aha
+souhlas Ano
+souhlas Ano, to je správně
+souhlas Beru na vědomí
+souhlas Bezpochyby
+souhlas Dobré vědět
+souhlas Dobře
+souhlas Dobře
+souhlas Dokonalý
+souhlas Geniální
+souhlas Chápeš
+souhlas Chápu
+souhlas Chápu tě
+souhlas Jasně
+souhlas Jasný ne?
+souhlas Je to tak
+souhlas Jo
+souhlas Jo, jasně
+souhlas Máš pravdu
+souhlas OK
+souhlas Perfektní
+souhlas Pochopil jsem
+souhlas Přesně
+souhlas Přesně tak
+souhlas Souhlas
+souhlas Souhlasím
+souhlas Správně
+souhlas To je pravda
+souhlas Určitě
+souhlas Úžasný
