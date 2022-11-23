@@ -16,6 +16,7 @@ def main(args):
     if args.model in ['robeczech', 'electra']:
         train_dataset, dev_dataset = load_data(args.data_fn)
         all_labels = set(train_dataset['labels'])
+        print(all_labels)
         label_mapping = {name: n for n, name in enumerate(all_labels)}
         inv_label_mapping = {v: k for k, v in label_mapping.items()}
     else:
